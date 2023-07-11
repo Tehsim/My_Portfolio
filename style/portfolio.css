@@ -6,9 +6,13 @@ body{
 /* flex krle block gula ek line a chole ashe ..here h1 and ul both block element */
 nav{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 nav > ul{
     display:flex;
+    align-items: center;
 
     
 }
@@ -32,6 +36,11 @@ nav a{
 }
 .btn-primary{
     border-radius: 5px;
-    background: #FD6E0A;  
+    background: #FD6E0A; 
+    border:0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding:18px,35px;
 }
 
