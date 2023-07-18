@@ -204,8 +204,11 @@ footer {
 @media screen and  (max-width:576px) {
 
     /* .header{ background_image: none; */
-    nav, .banner, .skill-container , .resume-container , footer , .about-info-container, .banner{
+    nav>ul, nav, .banner, .skill-container , .resume-container , footer , .about-info-container, .banner{
         flex-direction: column;
+    }
+    nav>ul{
+        gap:10px;
     }
     #what-i-do {
         padding: 20px;
@@ -234,6 +237,10 @@ footer {
     footer{
         padding: 30px;
     }
+    button{
+        margin-bottom: 20px;
+    }
+ 
   
     
 }
