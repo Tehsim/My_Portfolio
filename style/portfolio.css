@@ -199,5 +199,41 @@ footer {
 }
 
 .social-links a{
-    margin-right: 25px;
+}
+/*  */
+@media screen and  (max-width:576px) {
+
+    /* .header{ background_image: none; */
+    nav, .banner, .skill-container , .resume-container , footer , .about-info-container, .banner{
+        flex-direction: column;
+    }
+    #what-i-do {
+        padding: 20px;
+    }
+    footer,.about{
+        padding: 10px;
+    }
+
+    .footer-column{
+       width: 100%;
+    }
+    .contact input[type="text" ], .contact input[type="email"],textarea{
+
+        width: 70%;
+    }
+    button{
+        margin-bottom: 20px;
+    }
+ 
+        
+    
+}
+
+@media screen and  (min-width:576px) and (max-width:960px) {
+
+    footer{
+        padding: 30px;
+    }
+  
+    
 }
